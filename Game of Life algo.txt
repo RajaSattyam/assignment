@@ -1,0 +1,10 @@
+1.First we need to create 2-dimensional Array.
+2.After that we have to keep track of that element position and thier neighbours 
+  position and state (specially how many neighbours are in live state) 
+  by this we could able to decide the state of our element.
+3. Implementation of rules
+   i).Loneliness : If i am live and less than 2 neighbours then new state is DIE.
+   ii).Overpopulation: If I am live and more than 3 neighbours then new State is DIE.
+  iii).Reproduction: If I am dead and more than 3 neighbour are live then new state is Live.
+ 
+ 
